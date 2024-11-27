@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<HTML Lang="es">
+<head>
+	<meta charset="UFT-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<title>Suma de dos números</title>
+</head>
+<body>
+	<h1>Calculadora de suma</h1>
+	<button onclick="sumarNumeros()">Calcular suma</button>
+	<p id="resultado"></p>
+
+	<script>
+		function sumarNumeros() {
+			
+			const numero1 = prompt("Ingrese el primer numero:");
+			const numero2 = prompt("Ingrese el segundo numero:");
+
+			const suma = parseFloat(numero1) + parseFloat(numero2);
+
+
+			document.getElementById("resultado").innerText = 'La suma de ${numero1} y ${numero2} es: ${suma}';
+}
+
+	</script>
+</body>
+</html>

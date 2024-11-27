@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "673e07afd7e470c88dc40cb7"
+  },
+  "cod_avion": "1",
+  "placa": "A319-100 ",
+  "color": "Blanco",
+  "capacidad": "144"
+},
+{
+  "_id": {
+    "$oid": "673e07f0d7e470c88dc40cb8"
+  },
+  "cod_avion": "2",
+  "placa": "A320-200 ",
+  "color": "Arcoiris",
+  "capacidad": "180"
+},
+{
+  "_id": {
+    "$oid": "673e083dd7e470c88dc40cb9"
+  },
+  "cod_avion": "2",
+  "placa": "A320-180",
+  "color": "null",
+  "capacidad": "174"
+}]
